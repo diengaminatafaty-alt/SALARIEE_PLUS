@@ -1,0 +1,23 @@
+SALARIÉE+ — démonstration
+=========================
+
+1) Démonstration immédiate (aucune installation)
+   Double-cliquez sur « SALARIEE+-demo.html ».
+   Tout est déjà compilé dans ce fichier : il s'ouvre dans Chrome ou Edge,
+   sans internet et sans Node.js.
+   Page de connexion : choisissez un espace (travailleuse, employeur, agence ou
+   administrateur), puis le code de démo 1234.
+
+2) Version source (pour modifier le code)
+   Ouvrez un terminal dans le dossier « salariee-plus » puis :
+
+     npm install
+     npm run dev        ->  http://localhost:3000
+     npm run build      ->  vérifie TypeScript et produit le dossier dist/
+
+   Node.js 18 ou plus est nécessaire (https://nodejs.org).
+   Conseil : copiez le dossier hors de OneDrive, par exemple C:\dev\salariee-plus,
+   pour éviter les ralentissements de synchronisation.
+
+Rappel : maquette de hackathon, paiements simulés. Le vrai paiement passera
+par un prestataire agréé. Frais de service employeur : 1 % du salaire.
